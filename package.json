@@ -1,0 +1,38 @@
+{
+  "name": "Macro",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron-store": "^10.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.6.0",
+    "electron": "^33.2.1"
+  },
+  "build": {
+    "appId": "com.todo.app",
+    "productName": "Macro App",
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!dist/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    }
+  }
+}

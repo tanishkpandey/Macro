@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Output directories
+dist/
+build/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Electron files
+*.local
+*.lock
+*.bak
+
+# Cache
+.cache/
+temp/
+tmp/
+
+# Package lock and coverage
+package-lock.json
+coverage/
+
+# Electron Forge or Builder cache
+out/
+
+# React build files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.env

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Title Bar -->
+        <div class="title-bar">
+            <div></div>
+            <div class="controls">
+                <button class="control-btn minimize-btn" onclick="minimizeToTray()"></button>
+                <button class="control-btn close-btn" onclick="closeWindow()"></button>
+            </div>
+        </div>
+
+        <!-- To-Do List Container -->
+        <div class="todo-container">
+            <div class="header">
+                <p>Tasks Today</p>
+                <span class="task-count">0 / 0</span>
+            </div>
+
+            <div class="add-task-container">
+                <input type="text" placeholder="Add a new task..." maxlength="100" id="new-task-input"
+                    class="add-task-input" onkeydown="handleKeyPress(event)" />
+            </div>
+
+            <ul id="task-list" class="task-list">
+                <!-- Dynamic tasks will appear here -->
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
