@@ -82,11 +82,10 @@ The **Macro Task  App** is a lightweight and efficient task management tool buil
 ---
 
 ## Installation
-
+https://github.com/tanishkpandey/Macro.git
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/todo-app.git
-   cd todo-app
+   git clone https://github.com/tanishkpandey/Macro.git
    ```
 
 2. Install dependencies:
